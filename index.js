@@ -35,7 +35,7 @@ const weather = {
       document.querySelector(".wind").innerText =
         "Wind speed: " + speed + " km/h";
       document.querySelector(".container").style.backgroundImage =
-        "url('https://source.unsplash.com/1600x900/?" + name + "')";
+        "url('https://source.unsplash.com/1080x1920/?" + name + "')";
       document.querySelector('.MaxTemp').innerText = "Maximum temprature in "+ temp_max+"°C";
       document.querySelector('.MinTemp').innerText = "Maximum temprature in "+ temp_min +"°C";
       document.querySelector('.Atomic').innerText = " Atmospheric pressure "+pressure+" hPa";
